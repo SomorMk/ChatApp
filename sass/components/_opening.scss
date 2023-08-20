@@ -1,0 +1,21 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                 Opening Section css Start
+=========================================================*/
+#opening{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    transition: all linear .5s;
+    .opening_text{
+        @include fs(#fff,20px,500);
+    }
+}
+/*=========================================================
+                 Opening Section css end
+=========================================================*/

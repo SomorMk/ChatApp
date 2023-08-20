@@ -1,0 +1,184 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1311px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1310.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    #opening .opening_text {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    #get_started .top .get_started_image {
+        max-width: 300px;
+    }
+    #get_started .top {
+        margin-top: 60px;
+    }
+    #get_started .top .text {
+        margin: 0 30px;
+        width: 100%;
+    }
+    #get_started .top .text .get_started_head {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #get_started .top .text .get_started_info {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+    #sign_up .sign_up_back_btn {
+        top: 20px;
+        left: 20px;
+    }
+    #sign_up .sign_up_back_btn i {
+        font-size: 14px;
+    }
+    #sign_up {
+        padding: 70px 25px 20px;
+    }
+    #sign_up .sign_up_inner .sign_up_head {
+        font-size: 25px;
+    }
+    #sign_up .sign_up_inner .sign_up_head::first-letter {
+        font-size: 35px;
+    }
+    #sign_up .sign_up_inner .sign_up_form {
+        width: 100%;
+    }
+    #sign_up .sign_up_inner .sign_up_form input {
+        padding: 10px 15px;
+    }
+    #sign_up .sign_up_inner .sign_up_form input::placeholder {
+        font-size: 14px;
+    }
+
+
+
+    #verification .verifiaction_back_btn {
+        top: 20px;
+        left: 20px;
+    }
+    #verification .verifiaction_back_btn i {
+        font-size: 14px;
+    }
+    #verification {
+        padding: 70px 30px 30px;
+    }
+    #verification .verifiaction_head {
+        font-size: 18px;
+    }
+    #verification .tempMsg {
+        font-size: 10px;
+    }
+    #verification .tempMsg span {
+        font-size: 12px;
+    }
+    #verification .verification_code .number-code {
+        width: 100%;
+    }
+    #verification .verification_code h2 {
+        top: 38px;
+        left: 10px;
+        font-size: 18px;
+    }
+    #verification .verification_code .number-code .code-input {
+        width: 60px;
+    }
+    #verification .verification_code .number-code .send_time {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    #verification .verification_code .send_again {
+        font-size: 11px;
+    }
+    #verification .verification_code {
+        margin-top: 25px;
+    }
+    #verification .verification_code .verifiactionBtn {
+        margin-top: 45px;
+    }
+
+
+
+    #chatPage {
+        padding: 0 10px;
+    }
+    #chatPage .top .company_name {
+        font-size: 35px;
+    }
+    #chatPage .top .chat_setting_menu .chat_setting_menu_items i {
+        font-size: 15px;
+    }
+    #chatPage .top .chat_setting_menu .chat_setting_menu_items {
+        margin-left: 15px;
+    }
+    #chatPage .chat_head .chat_head_heading {
+        font-size: 25px;
+    }
+    #chatPage .chat_head .chat_head_ul .chat_head_items {
+        margin-right: 10px;
+    }
+    #chatPage .chat_head .chat_head_ul .chat_head_items img {
+        width: 40px;
+        height: 40px;
+    }
+    #chatPage .chat_head .chat_head_ul .chat_head_items span {
+        width: 10px;
+        height: 10px;
+    }
+    #chatPage .chat_body ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+    #chatPage .chat_body ul li img {
+        width: 50px;
+        height: 50px;
+    }
+    #chatPage .chat_body ul li .text {
+        margin-left: 30px;
+    }
+    #chatPage .chat_body ul li .text h6 {
+        font-size: 16px;
+    }
+    #chatPage .chat_body ul li .text p {
+        font-size: 10px;
+    }
+    #chatPage .chat_body {
+        height: 350px;
+    }
+
+
+
+    #chatPage .top .searchfloat.active {
+        top: 80px;
+    }
+    #chatPage .top .searchfloat {
+        right: 0px;
+        width: 100%;
+    }
+    #chatPage .top .searchfloat input {
+        width: 90%;
+        padding: 5px 10px;
+    }
+    #chatPage .top .searchfloat input::placeholder {
+        font-size: 10px;
+    }
+    #chatPage .top .searchfloat .searchDismiss {
+        right: 0px;
+    }
+    #chatPage .top .searchfloat button {
+        right: 45px;
+    }
+}

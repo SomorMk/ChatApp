@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/*=========================================================
+                    Common css end
+=========================================================*/
+/*=========================================================
+                 Opening Section css Start
+=========================================================*/
+#opening {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+  transition: all linear 0.5s;
+}
+#opening .opening_text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*=========================================================
+                 Opening Section css end
+=========================================================*/
+/*=========================================================
+                 Get Started Section css Start
+=========================================================*/
+#get_started {
+  background: #000;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  transition: all linear 0.8s;
+}
+#get_started .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+#get_started .top .get_started_image {
+  width: 100%;
+  max-width: 400px;
+}
+#get_started .top .text {
+  text-align: center;
+  margin: 0 300px;
+}
+#get_started .top .text .get_started_head {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#get_started .top .text .get_started_head::first-letter {
+  font-size: 80px;
+}
+#get_started .top .text .get_started_info {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#get_started .bottom {
+  width: 100%;
+  text-align: center;
+}
+#get_started .bottom .get_started_btn {
+  background: #fff;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+  transition: all linear 0.3s;
+}
+#get_started .bottom .get_started_btn:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+/*=========================================================
+                 Get Started Section css end
+=========================================================*/
+/*=========================================================
+                 Sign Up css Start
+=========================================================*/
+#sign_up {
+  background: #000;
+  min-height: 100vh;
+  padding: 100px 50px;
+  display: none;
+}
+#sign_up .sign_up_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#sign_up .sign_up_inner .sign_up_head {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#sign_up .sign_up_inner .sign_up_head::first-letter {
+  font-size: 70px;
+}
+#sign_up .sign_up_inner .sign_up_form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+#sign_up .sign_up_inner .sign_up_form input {
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: transparent;
+  margin-bottom: 20px;
+  color: #fff;
+}
+#sign_up .sign_up_inner .sign_up_form input::-moz-placeholder {
+  color: #fff;
+}
+#sign_up .sign_up_inner .sign_up_form input::placeholder {
+  color: #fff;
+}
+#sign_up .sign_up_inner .sign_up_form .signToLog {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+#sign_up .sign_up_inner .sign_up_form .signToLog .singToLogBtn {
+  color: brown;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+#sign_up .sign_up_inner .sign_up_form .sign_up_submit {
+  background: #fff;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all linear 0.3s;
+}
+#sign_up .sign_up_inner .sign_up_form .sign_up_submit:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#sign_up .sign_up_back_btn {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  cursor: pointer;
+}
+#sign_up .sign_up_back_btn i {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*=========================================================
+                 Sign Up css end
+=========================================================*/
+/*=========================================================
+                Verifiaction Section css Start
+=========================================================*/
+#verification {
+  background: #000;
+  min-height: 100vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px 50px 50px;
+}
+#verification .verifiaction_head {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
+#verification .tempMsg {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+#verification .tempMsg span {
+  color: yellow;
+  font-size: 16px;
+  text-decoration: underline;
+}
+#verification .verification_code {
+  margin-top: 60px;
+  position: relative;
+}
+#verification .verification_code h2 {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  background: #000;
+}
+#verification .verification_code .number-code {
+  margin-top: 50px;
+  border: 1px solid #fff;
+  border-radius: 0 50px 0 0;
+  padding: 50px 0px 20px;
+  width: 600px;
+}
+#verification .verification_code .number-code .code-input {
+  width: 115px;
+}
+#verification .verification_code .number-code .wrongCode {
+  color: red;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+  display: none;
+}
+#verification .verification_code .number-code .send_time {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+#verification .verification_code .send_again {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+#verification .verification_code .send_again .resendBtn {
+  color: brown;
+  cursor: pointer;
+}
+#verification .verification_code .verifiactionBtn {
+  margin-top: 90px;
+  background: #fff;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all linear 0.3s;
+}
+#verification .verification_code .verifiactionBtn:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#verification .verifiaction_back_btn {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  cursor: pointer;
+}
+#verification .verifiaction_back_btn i {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*=========================================================
+                Verifiaction Section css end
+=========================================================*/
+/*=========================================================
+                  Chat Page css Start
+=========================================================*/
+#chatPage {
+  padding: 0 100px;
+  background: #000;
+  min-height: 100vh;
+  display: none;
+}
+#chatPage .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  position: relative;
+}
+#chatPage .top .company_name {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+#chatPage .top .chat_setting_menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+#chatPage .top .chat_setting_menu .chat_setting_menu_items {
+  margin-left: 25px;
+  cursor: pointer;
+}
+#chatPage .top .chat_setting_menu .chat_setting_menu_items i {
+  color: #fff;
+  font-size: 20px;
+}
+#chatPage .top .searchfloat {
+  position: absolute;
+  top: -100px;
+  right: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all linear 0.5s;
+}
+#chatPage .top .searchfloat.active {
+  transition: all linear 0.5s;
+  top: 40px;
+}
+#chatPage .top .searchfloat input {
+  background: none;
+  border: 3px solid #fff;
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: #fff;
+  padding-right: 28px;
+}
+#chatPage .top .searchfloat input::-moz-placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+#chatPage .top .searchfloat input::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+#chatPage .top .searchfloat button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: #000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+#chatPage .top .searchfloat button i {
+  color: #fff;
+}
+#chatPage .top .searchfloat .searchDismiss {
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+}
+#chatPage .top .searchfloat .searchDismiss i {
+  color: #fff;
+  font-size: 20px;
+}
+#chatPage .chat_head {
+  margin-top: 30px;
+}
+#chatPage .chat_head .chat_head_heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 20px;
+}
+#chatPage .chat_head .chat_head_ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#chatPage .chat_head .chat_head_ul .chat_head_items {
+  margin-right: 30px;
+  position: relative;
+}
+#chatPage .chat_head .chat_head_ul .chat_head_items img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#chatPage .chat_head .chat_head_ul .chat_head_items span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #42f242;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#chatPage .chat_body {
+  margin-top: 50px;
+  height: 400px;
+  width: 100%;
+  background: transparent;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+#chatPage .chat_body ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#chatPage .chat_body ul li {
+  width: 48%;
+  background: #fff;
+  margin-bottom: 24px;
+  padding: 10px 50px 10px 20px;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+#chatPage .chat_body ul li img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#chatPage .chat_body ul li .text {
+  margin-left: 50px;
+}
+#chatPage .chat_body ul li .text h6 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#chatPage .chat_body ul li .text p {
+  color: #242323;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*=========================================================
+                  Chat Page css end
+=========================================================*//*# sourceMappingURL=style.css.map */
